@@ -8,7 +8,7 @@ class Cliente: public Pessoa{
 
     private:
         
-        static int numeroDeIdentificadores;
+        static int numeroDeIdentificadores; // quantidade de id
         vector<Dependente> dependentes;
 
     public:
